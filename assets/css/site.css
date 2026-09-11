@@ -161,3 +161,8 @@ h3{font-size:1.05rem}
 .foot-nav{display:grid;gap:8px;font-size:.92rem}
 .foot-nav a{color:#C7D5E1}
 .foot-legal{border-top:1px solid #1C3A57;padding:16px 24px;font-size:.8rem;color:#7E97AD}
+
+/* logo */
+.brand{display:flex;align-items:center;gap:10px}
+.brand-mark{display:block;width:34px;height:auto}
+.foot-mark{display:block;width:42px;height:auto;margin-bottom:12px;opacity:.95}
