@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Request a Quote | Recio Solutions LLC Medical Courier</title>
+<meta name="description" content="Request a medical courier quote in Tampa Bay. Written per-stop and route rates with pickup windows. Same business day response.">
+<link rel="canonical" href="https://reciosolutions.com/quote/">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/site.css">
+</head>
+<body>
+<header class="site-head">
+  <div class="wrap head-in">
+    <a class="brand" href="/">RECIO SOLUTIONS <span>LLC</span></a>
+    <nav class="nav" id="nav"><a href="/">Home</a><a href="/services/">Services</a><a href="/compliance/">Compliance</a><a href="/how-it-works/">How It Works</a><a href="/service-area/">Service Area</a><a href="/about/">About</a><a href="/quote/" class="btn btn-sm">Request a Quote</a></nav>
+    <a class="head-call" href="tel:+13214905997">(321) 490-5997</a>
+    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</header>
+<section class="hero" style="padding:56px 0 48px">
+  <div class="wrap">
+    <p class="kicker">Request a Quote</p>
+    <h1>Tell us the route. <strong>We'll quote it straight.</strong></h1>
+    <p class="lead">Stops, volume, frequency, urgency. You get a written rate with pickup windows, not a phone-tag negotiation.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap two-col">
+    <div>
+      <form id="quoteForm" novalidate>
+        <div class="form-grid">
+          <div class="field"><label for="name">Your name *</label><input id="name" name="name" type="text" autocomplete="name" required></div>
+          <div class="field"><label for="organization">Facility or organization</label><input id="organization" name="organization" type="text" autocomplete="organization"></div>
+          <div class="field"><label for="phone">Phone *</label><input id="phone" name="phone" type="tel" autocomplete="tel" required></div>
+          <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email"></div>
+          <div class="field"><label for="facilityType">Facility type</label>
+            <select id="facilityType" name="facilityType">
+              <option value="">Select one</option>
+              <option>Reference or specialty lab</option>
+              <option>Physician office or clinic</option>
+              <option>Urgent care</option>
+              <option>Pharmacy</option>
+              <option>Dialysis or imaging center</option>
+              <option>Dental or DME</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="field"><label for="urgency">Urgency</label>
+            <select id="urgency" name="urgency">
+              <option value="">Select one</option>
+              <option>Recurring route (daily or weekly)</option>
+              <option>STAT / urgent, need it now</option>
+              <option>One-time or occasional</option>
+              <option>Planning ahead</option>
+            </select>
+          </div>
+          <div class="field"><label for="pickupLocation">Pickup location (city or address)</label><input id="pickupLocation" name="pickupLocation" type="text"></div>
+          <div class="field"><label for="frequency">Frequency</label><input id="frequency" name="frequency" type="text" placeholder="e.g. Daily, Mon-Fri, twice weekly"></div>
+          <div class="field full"><label for="volume">Estimated volume</label><input id="volume" name="volume" type="text" placeholder="e.g. 4 stops, 20 to 30 specimens per day"></div>
+          <div class="field full"><label for="message">Anything else</label><textarea id="message" name="message" placeholder="Destinations, temperature requirements, current courier issues, timing"></textarea></div>
+          <div class="hp" aria-hidden="true"><label for="website">Website</label><input id="website" name="website" type="text" tabindex="-1" autocomplete="off"></div>
+        </div>
+        <p class="small" style="margin:16px 0">We use this information to prepare your quote and nothing else.</p>
+        <button type="submit" class="btn" id="quoteSubmit">Request a Quote</button>
+        <p id="formMsg" class="form-note" hidden></p>
+        <p class="form-alt">Prefer the phone? Call <a href="tel:+13214905997">(321) 490-5997</a>. STAT requests should always call.</p>
+      </form>
+    </div>
+    <div class="side-panel">
+      <h3>What happens next</h3>
+      <ul>
+        <li>We call you back the same business day</li>
+        <li>You get a written rate with pickup and delivery windows</li>
+        <li>COI and sample BAA sent with the quote if you want them</li>
+        <li>No contract pressure. Route service earns renewal by running.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+<footer class="site-foot">
+  <div class="wrap foot-grid">
+    <div>
+      <p class="foot-brand">RECIO SOLUTIONS LLC</p>
+      <p class="foot-tag">Medical courier services. Tampa Bay, Florida.</p>
+      <p class="foot-line">Certificate of insurance and sample BAA available on request.</p>
+    </div>
+    <div class="foot-contact">
+      <p><span>Phone</span><a href="tel:+13214905997">(321) 490-5997</a></p>
+      <p><span>Email</span><a href="mailto:sales@reciosolutions.com">sales@reciosolutions.com</a></p>
+      <p><span>Web</span>reciosolutions.com</p>
+    </div>
+    <div class="foot-nav">
+      <a href="/services/">Services</a>
+      <a href="/compliance/">Compliance</a>
+      <a href="/how-it-works/">How It Works</a>
+      <a href="/service-area/">Service Area</a>
+      <a href="/quote/">Request a Quote</a>
+    </div>
+  </div>
+  <div class="wrap foot-legal"><p>&copy; <span id="yr"></span> Recio Solutions LLC. All rights reserved.</p></div>
+</footer>
+<a class="mobile-call" href="tel:+13214905997">Call (321) 490-5997</a>
+<script src="/assets/js/site.js"></script>
+</body>
+</html>
